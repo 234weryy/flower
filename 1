@@ -1,55 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src=".js"></script>
-</head>
-<body>
-    <header>
-        <div class="aaa">
-            <img src="foto/logo 1.png" alt="" class="logo">
+a{
+    text-decoration: none;
+}
 
-            <div class="h_link">
-                <a href="#" class="link">catalog</a>
-                <a href="#" class="link">contacts</a>
-            </div>
-        </div>
-       <div class="h2_links">
-        <a href="#" class="link">logn in</a>
-        <img src="foto/image.png" class="logo" alt="">
-       </div>
-        
-    </header>
+p{
+    color: black;
+}
 
-    <section class="banner">
-        <p class="banner_text"style="font-size:50px">Flower Garden</p>
-        <a href="#" class="link">sign up</a>
-    </section>
-    <div class="main">
-        <div class="">  <!--один загальний блок-->
-              <p>About us</p>
-              <p>We give people emotions that remind of the brightest</p>
-              <p>events of life</p>       
-        </div>   
-        </div>
-            <div class="all">                   <!--один загальний блок-->
-                <div class="card">              <!--окремі блоки-->
-                    <div class="card-f">
-                    </div>
-                    <div class="card-2">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="comm">
+body{
+margin: 0;
+padding: 0;
+}
 
-        </div>
-    </div>
-    <div class="info">
+header{
+    background-color: #E6B3B3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
 
-    </div>
-</body>
-</html>
+.banner{
+    height: 500px;
+    background-image: url(foto/imagebg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 10%;
+    font-size: 1.5em;
+}
+
+.banner_hr{
+    background-color: #E6B3B3;
+    border-radius: 60px;
+    padding: 2% 6%;
+}
+
+.logo{
+    width: 30%;
+    height: 30%;
+
+}
+
+.aaa{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.h_link{
+    padding-left: ;
+}
+
+.link{
+    padding-right: 50px;
+    font-size: 1.5em;
+}
+
+
+.main{
+    height: 1710px;
+    background-image: url(foto/bg.png);
+    background-color: yellow;
+}
+
+
+.about{
+    text-align: center;
+    padding: 10%;
+}
+
+.info{
+    background-color: #E6B3B3;
+    height: 300px;
+}
